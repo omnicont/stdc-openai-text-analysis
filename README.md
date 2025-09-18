@@ -17,10 +17,10 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out serv
 
 ## Installation
 
-Replace `/path/to/itssemantics` with the folder you cloned from GitHub.
+Replace `/path/to/stdc-openai-text-analysis-main` with the folder you cloned from GitHub.
 
 ```bash
-cd /path/to/itssemantics/server && npm install
+cd /path/to/stdc-openai-text-analysis-main/server && npm install
 cd ../client && npm install
 ```
 
@@ -54,14 +54,14 @@ The server verifies that `OPENAI_API_KEY` is present at startup and exits with a
 Start the API (https://localhost:3000):
 
 ```bash
-cd /path/to/itssemantics/server
+cd /path/to/stdc-openai-text-analysis-main/server
 npm run dev
 ```
 
 Start the React client (https://localhost:3001):
 
 ```bash
-cd /path/to/itssemantics/client
+cd /path/to/stdc-openai-text-analysis-main/client
 npm start
 ```
 
