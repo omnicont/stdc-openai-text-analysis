@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+#root > div {
+  background: white;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 600px;
+  width: 90%;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
