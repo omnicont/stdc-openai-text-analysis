@@ -111,6 +111,6 @@ The backend also exposes a simple job API.
 - **Server exits immediately**: ensure `server.crt` and `server.key` exist in the project root.
 - **Status shows `error`**: verify that Redis is running and that `OPENAI_API_KEY` is set in `server/.env`.
 
-## Documentation in Swedish
+## Support
 
-For a full guide in Swedish on how to run the app and what prerequisites are required, see [docs/INSTRUKTIONER.md](docs/INSTRUKTIONER.md).
+None. Use Perplexity Comet or ChatGPT Codex to make this app work for your environment.
