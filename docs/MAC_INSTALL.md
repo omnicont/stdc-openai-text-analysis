@@ -20,7 +20,7 @@ These steps describe how to set up the prerequisites on a Macbook M2 or other Ma
 3. **Clone this repository and install dependencies**
    ```bash
    git clone <repository-url>
-   cd itssemantics
+   cd stdc-openai-text-analysis-main
    cd server && npm install
    cd ../client && npm install
    ```
